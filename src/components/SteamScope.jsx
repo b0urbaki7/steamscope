@@ -1,24 +1,22 @@
 import React, { useState, useEffect } from 'react';
-import { AlertCircle, Loader2, Clock, Monitor, Moon, Sun } from 'lucide-react';
+import { AlertCircle, Loader2, Clock, Monitor, Moon, Sun, User } from 'lucide-react';
 import { Alert, AlertDescription } from './ui/alert';
 
 const SteamLibrary = () => {
-  const [steamId, setSteamId] = useState('');
+  const [steamInput, setSteamInput] = useState('');
   const [games, setGames] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
+  const [horoscope, setHoroscope] = useState('');
   const [isDark, setIsDark] = useState(() => {
-    // Check if user previously selected dark mode
     return document.documentElement.classList.contains('dark');
   });
 
-
   const API_BASE = import.meta.env.PROD 
-  ? 'https://steamscope.vercel.app'
-  : '';
+    ? 'https://steamscope.vercel.app'
+    : '';
 
   useEffect(() => {
-    // Apply dark mode on initial load
     if (isDark) {
       document.documentElement.classList.add('dark');
     }
@@ -33,19 +31,78 @@ const SteamLibrary = () => {
     return /^\d{17}$/.test(id);
   };
 
-  const fetchLibrary = async (e) => {
-    e.preventDefault();
+  const isVanityUrl = (input) => {
+    return /^[a-zA-Z0-9_-]+$/.test(input) && !validateSteamId(input);
+  };
+
+  const generateHoroscope = (games) => {
+    const personalities = [];
     
-    if (!validateSteamId(steamId)) {
-      setError('Please enter a valid Steam64 ID (17 digits)');
-      return;
+    // Check for specific games and playtime
+    const totalPlaytime = games.reduce((acc, game) => acc + game.playtime_forever, 0) / 60;
+    
+    games.forEach(game => {
+      const playtime = game.playtime_forever / 60; // Convert to hours
+      
+      switch (game.name.toLowerCase()) {
+        case 'factorio':
+          if (playtime > 100) personalities.push("You're definitely an engineer - or wish you were one. You see conveyor belts in your dreams.");
+          break;
+        case 'team fortress 2':
+          if (playtime > 50) personalities.push("A true boomer gamer who probably still misses the Orange Box days.");
+          break;
+        case 'dota 2':
+          if (playtime > 1000) personalities.push("Touch grass. Please. Your family misses you.");
+          break;
+        case 'stardew valley':
+          personalities.push("You've definitely googled 'how to quit job and start farm' at least once.");
+          break;
+        case 'dark souls':
+          personalities.push("You're not a masochist, you just 'appreciate the challenge', right?");
+          break;
+      }
+    });
+
+    // Add general observations based on total playtime
+    if (totalPlaytime > 5000) {
+      personalities.push("Your Steam library is basically a second mortgage at this point.");
+    } else if (totalPlaytime < 10) {
+      personalities.push("Either you're new here or this is your 'homework' account.");
     }
 
+    return personalities.length > 0 
+      ? personalities.join(' ') 
+      : "You're surprisingly normal. We'll need to fix that.";
+  };
+
+  const resolveVanityUrl = async (vanityUrl) => {
+    try {
+      const response = await fetch(`${API_BASE}/api/resolve-vanity?vanityUrl=${vanityUrl}`);
+      if (!response.ok) {
+        throw new Error('Failed to resolve vanity URL');
+      }
+      const data = await response.json();
+      return data.steamId;
+    } catch (error) {
+      throw new Error('Could not resolve vanity URL to Steam ID');
+    }
+  };
+
+  const fetchLibrary = async (e) => {
+    e.preventDefault();
     setLoading(true);
     setError('');
     
     try {
-      const response = await fetch(`${API_BASE}/api/steam-library?steamId=${steamId}`);
+      let finalSteamId = steamInput;
+      
+      if (isVanityUrl(steamInput)) {
+        finalSteamId = await resolveVanityUrl(steamInput);
+      } else if (!validateSteamId(steamInput)) {
+        throw new Error('Please enter a valid Steam64 ID or vanity URL');
+      }
+      
+      const response = await fetch(`${API_BASE}/api/steam-library?steamId=${finalSteamId}`);
       
       if (!response.ok) {
         const errorData = await response.json();
@@ -54,8 +111,9 @@ const SteamLibrary = () => {
       
       const data = await response.json();
       setGames(data.games || []);
+      setHoroscope(generateHoroscope(data.games || []));
     } catch (err) {
-      setError(err.message || 'Failed to fetch Steam library. Please check the Steam ID and try again.');
+      setError(err.message || 'Failed to fetch Steam library. Please check the input and try again.');
     } finally {
       setLoading(false);
     }
@@ -65,7 +123,7 @@ const SteamLibrary = () => {
     <div className="min-h-screen p-4 space-y-6 bg-gray-50 dark:bg-gray-900 transition-colors">
       <div className="max-w-4xl mx-auto">
         <div className="flex justify-between items-center mb-4">
-          <h1 className="text-3xl font-bold dark:text-white">Steam Library Viewer</h1>
+          <h1 className="text-3xl font-bold dark:text-white">Steam Library Horoscope<p className='text-xs'>by <a className='text-xs' href="https://github.com/b0urbaki7/steamscope">@b0urbaki7</a></p></h1>
           <button
             onClick={toggleDarkMode}
             className="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors dark:text-white"
@@ -78,29 +136,21 @@ const SteamLibrary = () => {
         <div className="bg-white dark:bg-gray-800 rounded-lg shadow-sm p-6">
           <form onSubmit={fetchLibrary} className="space-y-4">
             <div>
-              <label htmlFor="steamId" className="block text-sm font-medium mb-2 dark:text-gray-200">
-                Steam64 ID
+              <label htmlFor="steamInput" className="block text-sm font-medium mb-2 dark:text-gray-200">
+                Steam ID or Vanity URL
               </label>
               <div className="space-y-2">
                 <input
-                  id="steamId"
+                  id="steamInput"
                   type="text"
-                  value={steamId}
-                  onChange={(e) => setSteamId(e.target.value)}
-                  placeholder="Enter your 17-digit Steam64 ID"
+                  value={steamInput}
+                  onChange={(e) => setSteamInput(e.target.value)}
+                  placeholder="Enter Steam64 ID or vanity URL"
                   className="w-full px-4 py-2 border rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:placeholder-gray-400"
                   required
                 />
                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                  Need help? Find your Steam64 ID at{' '}
-                  <a
-                    href="https://steamid.io"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-blue-600 hover:underline dark:text-blue-400"
-                  >
-                    steamid.io
-                  </a>
+                  Enter your Steam64 ID or custom URL name (e.g., 76561198141342345 or b0urbaki7)
                 </p>
               </div>
             </div>
@@ -113,12 +163,12 @@ const SteamLibrary = () => {
               {loading ? (
                 <span className="flex items-center justify-center">
                   <Loader2 className="animate-spin mr-2" size={16} />
-                  Loading Library...
+                  Reading Your Gaming Fortune...
                 </span>
               ) : (
                 <span className="flex items-center justify-center">
-                  <Monitor className="mr-2" size={16} />
-                  View Library
+                  <User className="mr-2" size={16} />
+                  Analyze My Library
                 </span>
               )}
             </button>
@@ -131,6 +181,13 @@ const SteamLibrary = () => {
             </Alert>
           )}
         </div>
+
+        {horoscope && (
+          <div className="bg-white dark:bg-gray-800 rounded-lg shadow-sm p-6 mt-6">
+            <h2 className="text-xl font-bold mb-4 dark:text-white">Your Gaming Horoscope</h2>
+            <p className="text-gray-700 dark:text-gray-300 italic">{horoscope}</p>
+          </div>
+        )}
 
         {games.length > 0 && (
           <div className="bg-white dark:bg-gray-800 rounded-lg shadow-sm p-6 mt-6">
