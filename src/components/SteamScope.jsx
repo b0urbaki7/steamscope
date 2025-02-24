@@ -12,6 +12,11 @@ const SteamLibrary = () => {
     return document.documentElement.classList.contains('dark');
   });
 
+
+  const API_BASE = import.meta.env.PROD 
+  ? 'https://steamscope.vercel.app'
+  : '';
+
   useEffect(() => {
     // Apply dark mode on initial load
     if (isDark) {
@@ -40,7 +45,7 @@ const SteamLibrary = () => {
     setError('');
     
     try {
-      const response = await fetch(`/api/steam-library?steamId=${steamId}`);
+      const response = await fetch(`${API_BASE}/api/steam-library?steamId=${steamId}`);
       
       if (!response.ok) {
         const errorData = await response.json();
