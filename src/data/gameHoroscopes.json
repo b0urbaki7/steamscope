@@ -1,0 +1,1001 @@
+{
+  "440": {  
+    "_name": "Team Fortress 2",
+    "shortDesc": "A true boomer gamer who probably still misses the Orange Box days.",
+    "longDesc": "You've spent more time picking hats than some people spend on their actual appearance.",
+    "thresholds": {
+      "casual": 20,
+      "obsessed": 1000
+    }
+  },
+  "570": { 
+    "_name": "Dota 2",
+    "shortDesc": "Quit while your ahead, MOBAddiction can be hard on your blood pressure.",
+    "longDesc": "Touch grass. Please. Your family misses you.",
+    "thresholds": {
+      "casual": 50,
+      "obsessed": 2000
+    }
+  },
+  "8930": {
+    "_name": "Civilization V",
+    "shortDesc": "Your concept of 'just one more turn' has ruined many sleep schedules.",
+    "longDesc": "You've built and destroyed more civilizations than history itself. Time is but a construct when you're playing this game.",
+    "thresholds": {
+      "casual": 30,
+      "obsessed": 800
+    }
+  },
+  "379720": {
+    "_name": "DOOM (2016)",
+    "shortDesc": "You enjoy the simple pleasures of ripping and tearing until it is done.",
+    "longDesc": "The demons have nightmares about you. Your blood is 50% adrenaline, 50% heavy metal.",
+    "thresholds": {
+      "casual": 15,
+      "obsessed": 300
+    }
+  },
+  "1222670": {
+    "_name": "The Sims 4",
+    "shortDesc": "God complex? No, just someone who enjoys controlling virtual people's lives.",
+    "longDesc": "You've spent more on DLC than most people spend on rent. Your Sims have better lives than you do.",
+    "thresholds": {
+      "casual": 40,
+      "obsessed": 1000
+    }
+  },
+  "292030": {
+    "_name": "The Witcher 3: Wild Hunt",
+    "shortDesc": "You've said 'winds howling' more times than you care to admit.",
+    "longDesc": "You know the geography of Velen better than your own neighborhood. Gwent isn't just a mini-game, it's a lifestyle.",
+    "thresholds": {
+      "casual": 60,
+      "obsessed": 500
+    }
+  },
+  "730": {
+    "_name": "Counter-Strike 2",
+    "shortDesc": "Rush B, don't stop, cyka blyat is your daily mantra.",
+    "longDesc": "You could give a TED talk on the spray patterns of every weapon. Your reflexes would make a cat jealous.",
+    "thresholds": {
+      "casual": 40,
+      "obsessed": 1500
+    }
+  },
+  "252950": {
+    "_name": "Rocket League",
+    "shortDesc": "Soccer was too boring until they added rocket-powered cars.",
+    "longDesc": "You've said 'What a save!' sarcastically so many times that you do it in real life now. Your aerial control is better than your real-life coordination.",
+    "thresholds": {
+      "casual": 30,
+      "obsessed": 700
+    }
+  },
+  "105600": {
+    "_name": "Terraria",
+    "shortDesc": "2D Minecraft? No, this is a lifestyle choice with more bosses.",
+    "longDesc": "You've dug to hell and back more times than Dante. Your home decor skills in-game vastly outshine your real-life living space.",
+    "thresholds": {
+      "casual": 40,
+      "obsessed": 600
+    }
+  },
+  "413150": {
+    "_name": "Stardew Valley",
+    "shortDesc": "Escaping capitalism by becoming a farming tycoon.",
+    "longDesc": "You know more about crop rotation than actual farmers. You've mentally dated every NPC in Pelican Town multiple times.",
+    "thresholds": {
+      "casual": 50,
+      "obsessed": 400
+    }
+  },
+  "578080": {
+    "_name": "PUBG: BATTLEGROUNDS",
+    "shortDesc": "Your heart rate while playing could qualify as cardio exercise.",
+    "longDesc": "You've memorized the sound of footsteps so well you get paranoid hearing them in real life. The phrase 'Winner winner chicken dinner' gives you an adrenaline rush.",
+    "thresholds": {
+      "casual": 30,
+      "obsessed": 800
+    }
+  },
+  "230410": {
+    "_name": "Warframe",
+    "shortDesc": "Space ninjas with commitment issues to other games.",
+    "longDesc": "You speak fluent Tenno and grind more efficiently than industrial machinery. Your fashion frame game is stronger than your real wardrobe choices.",
+    "thresholds": {
+      "casual": 100,
+      "obsessed": 2000
+    }
+  },
+  "359550": {
+    "_name": "Rainbow Six Siege",
+    "shortDesc": "Your drywall repair skills have improved since playing this game.",
+    "longDesc": "You've learned more about tactical breaching than actual military personnel. The sound of drones makes you instinctively look at the ceiling.",
+    "thresholds": {
+      "casual": 50,
+      "obsessed": 1000
+    }
+  },
+  "271590": {
+    "_name": "Grand Theft Auto V",
+    "shortDesc": "Living your best life... of crime and questionable decisions.",
+    "longDesc": "You've spent more money on virtual cars than you'll ever afford in real life. Los Santos feels more like home than your actual city.",
+    "thresholds": {
+      "casual": 60,
+      "obsessed": 800
+    }
+  },
+  "218620": {
+    "_name": "PAYDAY 2",
+    "shortDesc": "Your retirement plan is probably a heist at this point.",
+    "longDesc": "You hear 'Guys, the thermal drill, go get it' in your sleep. Your stealth skills in-game are inversely proportional to your subtlety in real life.",
+    "thresholds": {
+      "casual": 40,
+      "obsessed": 900
+    }
+  },
+  "550": {
+    "_name": "Left 4 Dead 2",
+    "shortDesc": "You've prepared for the zombie apocalypse by shooting virtual ones.",
+    "longDesc": "Your reaction to hearing a child cry is to look for a nearby witch. You've shouted 'Pills here!' at a pharmacy at least once.",
+    "thresholds": {
+      "casual": 30,
+      "obsessed": 500
+    }
+  },
+  "294100": {
+    "_name": "RimWorld",
+    "shortDesc": "Your colony management skills are better than your life management skills.",
+    "longDesc": "You've committed war crimes that would make dictators blush. Human leather hats no longer seem that strange to you.",
+    "thresholds": {
+      "casual": 50,
+      "obsessed": 800
+    }
+  },
+  "236390": {
+    "_name": "War Thunder",
+    "shortDesc": "You can identify military vehicles better than their actual crews.",
+    "longDesc": "You've researched more about WWII vehicle specifications than actual historians. The grind has become part of your personality.",
+    "thresholds": {
+      "casual": 60,
+      "obsessed": 1500
+    }
+  },
+  "252490": {
+    "_name": "Rust",
+    "shortDesc": "Trust issues? Probably developed from playing this game.",
+    "longDesc": "You've been betrayed more times in this game than in all your real-life relationships combined. The sound of footsteps gives you PTSD.",
+    "thresholds": {
+      "casual": 50,
+      "obsessed": 1200
+    }
+  },
+  "377160": {
+    "_name": "Fallout 4",
+    "shortDesc": "Another settlement needs your help, and you can't say no.",
+    "longDesc": "You've spent more time modding the game than actually playing it. Your dog in-game has received more attention than most people in your life.",
+    "thresholds": {
+      "casual": 70,
+      "obsessed": 600
+    }
+  },
+  "620": {
+    "_name": "Portal 2",
+    "shortDesc": "The cake may be a lie, but your problem-solving skills are not.",
+    "longDesc": "You think with portals in real life situations. GLaDOS's voice narrates your failures on a daily basis.",
+    "thresholds": {
+      "casual": 10,
+      "obsessed": 100
+    }
+  },
+  "72850": {
+    "_name": "The Elder Scrolls V: Skyrim",
+    "shortDesc": "You've taken an arrow to the knee more times than you can count.",
+    "longDesc": "You've started the game 27 times but have only finished the main quest twice. Your mod folder is bigger than the actual game.",
+    "thresholds": {
+      "casual": 80,
+      "obsessed": 1000
+    }
+  },
+  "22380": {
+    "_name": "Fallout: New Vegas",
+    "shortDesc": "The Mojave makes you wish for a nuclear winter.",
+    "longDesc": "You've sided with every faction at least once and still can't decide which ending is best. Big Iron plays in your head whenever you're in the desert.",
+    "thresholds": {
+      "casual": 40,
+      "obsessed": 500
+    }
+  },
+  "1091500": {
+    "_name": "Cyberpunk 2077",
+    "shortDesc": "You've become the legend you always wanted to be in Night City.",
+    "longDesc": "Your body is mostly chrome at this point. You've lost count of how many times you've visited every ripperdoc in Night City.",
+    "thresholds": {
+      "casual": 60,
+      "obsessed": 600
+    }
+  },
+  "227300": {
+    "_name": "Euro Truck Simulator 2",
+    "shortDesc": "Who knew virtual trucking could be so therapeutic?",
+    "longDesc": "You know European highway systems better than actual truck drivers. Your virtual truck is cleaner and better maintained than your real car.",
+    "thresholds": {
+      "casual": 50,
+      "obsessed": 800
+    }
+  },
+  "242760": {
+    "_name": "The Forest",
+    "shortDesc": "Your survival skills are impressive, your cannibal-avoidance skills even more so.",
+    "longDesc": "You've built more elaborate bases in a cannibal-infested forest than most architects do in safe cities. The sound of breaking sticks makes you instinctively grab the nearest weapon.",
+    "thresholds": {
+      "casual": 30,
+      "obsessed": 400
+    }
+  },
+  "6060": {
+    "_name": "Star Wars: Knights of the Old Republic",
+    "shortDesc": "A long time ago in a galaxy far, far away, you started playing this game and never truly stopped.",
+    "longDesc": "You've explored the light and dark sides more thoroughly than any Jedi or Sith. HK-47's dialogue is your preferred way of addressing meatbags.",
+    "thresholds": {
+      "casual": 40,
+      "obsessed": 300
+    }
+  },
+  "594650": {
+    "_name": "Hunt: Showdown",
+    "shortDesc": "The bayou calls to you, and death is just part of the experience.",
+    "longDesc": "You can identify every weapon by sound alone. You've developed a sixth sense for detecting players through walls and across compounds.",
+    "thresholds": {
+      "casual": 40,
+      "obsessed": 800
+    }
+  },
+  "1174180": {
+    "_name": "Red Dead Redemption 2",
+    "shortDesc": "You've found a plan, you just need money and faith.",
+    "longDesc": "You spend more time hunting and fishing than advancing the story. Arthur Morgan feels more real to you than some actual people you know.",
+    "thresholds": {
+      "casual": 100,
+      "obsessed": 800
+    }
+  },
+  "648800": {
+    "_name": "Raft",
+    "shortDesc": "You've made surviving on a tiny floating platform look easy.",
+    "longDesc": "Your resource management skills are impeccable. You've turned a few planks into a floating mansion while constantly worrying about that shark.",
+    "thresholds": {
+      "casual": 20,
+      "obsessed": 300
+    }
+  },
+  "322330": {
+    "_name": "Don't Starve Together",
+    "shortDesc": "Starvation is just one of many creative ways you've died in this game.",
+    "longDesc": "Winter isn't coming, it's already here and you're strangely prepared for it. Your survival skills in-game are inversely proportional to what they would be in real life.",
+    "thresholds": {
+      "casual": 30,
+      "obsessed": 500
+    }
+  },
+  "387990": {
+    "_name": "Scrap Mechanic",
+    "shortDesc": "Engineering solutions that would make actual engineers question their careers.",
+    "longDesc": "You've built contraptions that defy both logic and physics. Your organizational system for parts is more sophisticated than most corporate filing systems.",
+    "thresholds": {
+      "casual": 40,
+      "obsessed": 600
+    }
+  },
+  "264710": {
+    "_name": "Subnautica",
+    "shortDesc": "The ocean depths hold no fear for you anymore, just resource-gathering opportunities.",
+    "longDesc": "Thalassophobia? You've conquered it through exposure therapy. The reaper leviathan's roar is your lullaby now.",
+    "thresholds": {
+      "casual": 30,
+      "obsessed": 400
+    }
+  },
+  "782330": {
+    "_name": "DOOM Eternal",
+    "shortDesc": "Ripping and tearing is your cardio workout.",
+    "longDesc": "You've mastered the deadly ballet of demon slaying. Your gameplay is so aggressive it makes actual heavy metal musicians nervous.",
+    "thresholds": {
+      "casual": 20,
+      "obsessed": 350
+    }
+  },
+  "739630": {
+    "_name": "Phasmophobia",
+    "shortDesc": "Getting scared with friends makes it slightly less terrifying.",
+    "longDesc": "You can identify ghost types faster than professional paranormal investigators. Your friends depend on you to carry the team while they hide in the van.",
+    "thresholds": {
+      "casual": 20,
+      "obsessed": 300
+    }
+  },
+  "1145360": {
+    "_name": "Hades",
+    "shortDesc": "Death is just the beginning of your journey out of the underworld.",
+    "longDesc": "You've died more times than most video game characters combined, and enjoyed every minute of it. Greek mythology is now basically your second religion.",
+    "thresholds": {
+      "casual": 30,
+      "obsessed": 300
+    }
+  },
+  "1583120": {
+    "_name": "Balatro",
+    "shortDesc": "You see card combinations in your dreams now.",
+    "longDesc": "Your understanding of poker probability has evolved beyond mathematics into a mystical art form. Regular playing cards seem boring without Joker effects.",
+    "thresholds": {
+      "casual": 15,
+      "obsessed": 200
+    }
+  },
+  "113200": {
+    "_name": "The Binding of Isaac: Rebirth",
+    "shortDesc": "Crying your way through procedurally generated dungeons has never been so fun.",
+    "longDesc": "Northernlios, is it you? You've seen disturbing item combinations that would make psychiatrists concerned. After 1000+ runs, you still discover new synergies that surprise you.",
+    "thresholds": {
+      "casual": 50,
+      "obsessed": 800
+    }
+  },
+  "504230": {
+    "_name": "Celeste",
+    "shortDesc": "You've learned that climbing a mountain is as much about the journey as it is about the destination.",
+    "longDesc": "Your thumb muscles have evolved specifically for precision platforming. You've died thousands of times but keep coming back because the music and story hit different.",
+    "thresholds": {
+      "casual": 10,
+      "obsessed": 150
+    }
+  },
+  "219740": {
+    "_name": "Don't Starve",
+    "shortDesc": "Your survival instincts are questionable, but your appreciation for gothic art is impeccable.",
+    "longDesc": "You've developed a strange obsession with collecting manure. Winter makes you instinctively check your thermal stone level.",
+    "thresholds": {
+      "casual": 25,
+      "obsessed": 400
+    }
+  },
+  "311690": {
+    "_name": "Enter the Gungeon",
+    "shortDesc": "You can dodge roll in your sleep and dream of bullet-shaped enemies.",
+    "longDesc": "You've memorized every gun's stats and synergies. Table flipping is now your first response to any mildly inconvenient situation.",
+    "thresholds": {
+      "casual": 20,
+      "obsessed": 300
+    }
+  },
+  "646570": {
+    "_name": "Slay the Spire",
+    "shortDesc": "Your deck-building skills exceed your life-building skills.",
+    "longDesc": "You see the world in terms of card synergies now. You've calculated probabilities so complex they'd make statisticians weep.",
+    "thresholds": {
+      "casual": 30,
+      "obsessed": 500
+    }
+  },
+  "588650": {
+    "_name": "Dead Cells",
+    "shortDesc": "Death is just another opportunity to get slightly better weapons.",
+    "longDesc": "You've died so many times the Collector considers you a close personal friend. Your muscle memory for combat moves has surpassed your ability to tie shoelaces.",
+    "thresholds": {
+      "casual": 25,
+      "obsessed": 400
+    }
+  },
+  "751780": {
+    "_name": "Forager",
+    "shortDesc": "You've optimized resource collection down to a science.",
+    "longDesc": "Your factory efficiency would make manufacturing engineers jealous. You collect resources faster than the game can spawn them.",
+    "thresholds": {
+      "casual": 20,
+      "obsessed": 250
+    }
+  },
+  "960090": {
+    "_name": "Bloons TD 6",
+    "shortDesc": "Popping balloons has never been so strategically complex.",
+    "longDesc": "You know the exact pixel placement for maximum tower efficiency. MOAB-class bloons in your nightmares run from you, not the other way around.",
+    "thresholds": {
+      "casual": 40,
+      "obsessed": 500
+    }
+  },
+  "239350": {
+    "_name": "Spelunky",
+    "shortDesc": "Your trust issues with bats and snakes are completely justified.",
+    "longDesc": "You've died in more creative ways than a Final Destination movie character. The shopkeeper's shotgun still gives you PTSD.",
+    "thresholds": {
+      "casual": 15,
+      "obsessed": 250
+    }
+  },
+  "367520": {
+    "_name": "Hollow Knight",
+    "shortDesc": "The cute bug aesthetic fooled you into a world of challenging bosses and melancholic lore.",
+    "longDesc": "You've spent hours trying to understand the lore through environmental storytelling. The Pantheon of Hallownest is your personal Mt. Everest.",
+    "thresholds": {
+      "casual": 40,
+      "obsessed": 400
+    }
+  },
+  "200210": {
+    "_name": "Outlast",
+    "shortDesc": "Your night vision is better than your courage.",
+    "longDesc": "You've mastered the art of hiding in lockers and under beds. Your battery conservation skills are unmatched in real life.",
+    "thresholds": {
+      "casual": 8,
+      "obsessed": 100
+    }
+  },
+  "219150": {
+    "_name": "Hotline Miami",
+    "shortDesc": "You like hurting other people, at least in neon-soaked pixel violence.",
+    "longDesc": "The soundtrack lives rent-free in your head. You restart levels so quickly it's become muscle memory.",
+    "thresholds": {
+      "casual": 5,
+      "obsessed": 70
+    }
+  },
+  "262060": {
+    "_name": "Darkest Dungeon",
+    "shortDesc": "Stress management in-game is ironically increasing your stress in real life.",
+    "longDesc": "You hear the narrator's voice commenting on your life decisions. Your tolerance for unfairness has reached superhuman levels.",
+    "thresholds": {
+      "casual": 30,
+      "obsessed": 400
+    }
+  },
+  "240720": {
+    "_name": "Getting Over It with Bennett Foddy",
+    "shortDesc": "Your patience has been tested more than your gaming skills.",
+    "longDesc": "You've experienced emotions that don't even have names yet. Your keyboard/controller has survived abuse that would qualify as evidence in court.",
+    "thresholds": {
+      "casual": 3,
+      "obsessed": 50
+    }
+  },
+  "2390130": {
+      "_name": "Football Manager 2024",
+      "shortDesc": "You've rejected more job offers in-game than you've applied for in real life.",
+      "longDesc": "Your spreadsheet skills could land you a job at any accounting firm. You've spent more time perfecting your 4-2-3-1 gegenpress than some coaches spend on their actual careers.",
+      "thresholds": {
+        "casual": 80,
+        "obsessed": 1000
+      }
+    },
+    "2050650": {
+      "_name": "Resident Evil 4 Remake",
+      "shortDesc": "Your inventory management skills are better than your actual organizational abilities.",
+      "longDesc": "The merchant's 'What are ya buyin?' lives rent-free in your head. You've developed a pavlovian response to typewriter sounds and instinctively check corners for shiny objects.",
+      "thresholds": {
+        "casual": 30,
+        "obsessed": 200
+      }
+    },
+    "1250410": {
+      "_name": "Microsoft Flight Simulator",
+      "shortDesc": "You now judge real pilots on their landing technique.",
+      "longDesc": "You've visited more countries virtually than most people do in their lifetime. Your knowledge of aviation procedures makes actual pilots nervous during casual conversations.",
+      "thresholds": {
+        "casual": 50,
+        "obsessed": 600
+      }
+    },
+    "1551360": {
+      "_name": "Baldur's Gate 3",
+      "shortDesc": "Your D&D group is tired of hearing about your camp romances.",
+      "longDesc": "You've reloaded saves more times than you've made actual life decisions. Your relationship with Shadowheart has lasted longer than some of your real-life partnerships.",
+      "thresholds": {
+        "casual": 70,
+        "obsessed": 500
+      }
+    },
+    "289070": {
+      "_name": "Sid Meier's Civilization VI",
+      "shortDesc": "One... more... turn... until suddenly it's 4 AM.",
+      "longDesc": "You've launched more nuclear weapons than all world leaders combined. Gandhi's aggression doesn't surprise you anymore, just like your sleep deprivation doesn't surprise your friends.",
+      "thresholds": {
+        "casual": 40,
+        "obsessed": 1000
+      }
+    },
+    "1172470": {
+      "_name": "Apex Legends",
+      "shortDesc": "You ping more in-game than you text in real life.",
+      "longDesc": "You've memorized every drop location, weapon stat, and legend ability. Your movement skills have you sliding down grocery store aisles when nobody's looking.",
+      "thresholds": {
+        "casual": 50,
+        "obsessed": 1200
+      }
+    },
+    "346110": {
+      "_name": "ARK: Survival Evolved",
+      "shortDesc": "Your digital dinosaurs get more attention than your houseplants.",
+      "longDesc": "You've spent more time gathering berries than actual foragers. Your base building skills would impress architects if they weren't for housing extinct creatures.",
+      "thresholds": {
+        "casual": 70,
+        "obsessed": 1500
+      }
+    },
+    "704450": {
+      "_name": "Deep Rock Galactic",
+      "shortDesc": "ROCK AND STONE! Your love for mining exceeds any dwarf in folklore.",
+      "longDesc": "Your beard may not be real, but your hatred for leaf-lovers is. Management would be proud of your mineral collection if they weren't so busy counting their profits.",
+      "thresholds": {
+        "casual": 40,
+        "obsessed": 600
+      }
+    },
+    "1938090": {
+      "_name": "Lethal Company",
+      "shortDesc": "Your scrap collecting efficiency exceeds your survival rate.",
+      "longDesc": "The Company requires more profit, and you've become oddly comfortable with the idea of being disposable. You communicate in quotas and flashlight clicks now.",
+      "thresholds": {
+        "casual": 20,
+        "obsessed": 300
+      }
+    },
+    "1593500": {
+      "_name": "God of War",
+      "shortDesc": "BOY! Your parenting style has been suspiciously influenced by Kratos.",
+      "longDesc": "You've shouted 'BOY!' more times than you've said your own name. Your axe-throwing precision in-game makes up for your complete lack of athletic ability in real life.",
+      "thresholds": {
+        "casual": 40,
+        "obsessed": 300
+      }
+    },
+    "976730": {
+      "_name": "Halo: The Master Chief Collection",
+      "shortDesc": "You've finished more fights than Master Chief himself.",
+      "longDesc": "The Halo theme is your mental soundtrack for mundane tasks. You've teabagged more digital corpses than you've had cups of actual tea.",
+      "thresholds": {
+        "casual": 60,
+        "obsessed": 800
+      }
+    },
+    "203160": {
+      "_name": "Tomb Raider",
+      "shortDesc": "Your survival instincts are impressive, but your fondness for unnecessarily dangerous ruins is concerning.",
+      "longDesc": "You've destroyed more ancient artifacts than museums have preserved. Your climbing skills in-game vastly outmatch your ability to climb a single flight of stairs without getting winded.",
+      "thresholds": {
+        "casual": 20,
+        "obsessed": 300
+      }
+    },
+    "261550": {
+      "_name": "Mount & Blade II: Bannerlord",
+      "shortDesc": "Your butter hoarding tendencies suggest you'd make a fine medieval lord.",
+      "longDesc": "You've built and lost more kingdoms than history has recorded. Your understanding of feudal politics exceeds that of most history professors.",
+      "thresholds": {
+        "casual": 60,
+        "obsessed": 1000
+      }
+    },
+    "394360": {
+      "_name": "Hearts of Iron IV",
+      "shortDesc": "Your alternative history scenarios would make historians cry.",
+      "longDesc": "You know more about obscure WWII generals than actual veterans. Your understanding of supply chains exceeds that of most logistics companies.",
+      "thresholds": {
+        "casual": 50,
+        "obsessed": 1000
+      }
+    },
+    "1716740": {
+      "_name": "Palworld",
+      "shortDesc": "Pokemon with guns seemed wrong until you tried it.",
+      "longDesc": "You've built a labor camp of cute creatures and feel no remorse. Your Pal-based factory efficiency would make industrial engineers jealous.",
+      "thresholds": {
+        "casual": 40,
+        "obsessed": 600
+      }
+    },
+    "1245620": {
+      "_name": "ELDEN RING",
+      "shortDesc": "You've died more times than you've had hot meals this year.",
+      "longDesc": "Maidenless behavior is your specialty. You know the Lands Between better than your own neighborhood and have spent more time fighting Malenia than most people spend commuting.",
+      "thresholds": {
+        "casual": 60,
+        "obsessed": 400
+      }
+    },
+    "881100": {
+      "_name": "Noita",
+      "shortDesc": "Your death count rivals the population of small countries.",
+      "longDesc": "You've died in more creative ways than anyone thought possible. Your wand-crafting skills would impress actual wizards if they existed.",
+      "thresholds": {
+        "casual": 20,
+        "obsessed": 300
+      }
+    },
+    "386360": {
+      "_name": "TEKKEN 7",
+      "shortDesc": "Your combo memorization exceeds your ability to remember birthdays.",
+      "longDesc": "You've practiced frame data more diligently than any academic subject. Your fingers move faster during matches than pianists during concertos.",
+      "thresholds": {
+        "casual": 30,
+        "obsessed": 500
+      }
+    },
+    "582010": {
+      "_name": "Monster Hunter: World",
+      "shortDesc": "You've crafted more armor sets than you have outfits in your real closet.",
+      "longDesc": "Your knowledge of monster behavior patterns exceeds most zoologists. You've carted so many times your Palico has developed PTSD.",
+      "thresholds": {
+        "casual": 80,
+        "obsessed": 1000
+      }
+    },
+    "1245620": {
+      "_name": "Valheim",
+      "shortDesc": "Your Viking architectural skills vastly outpace your IKEA furniture assembly abilities.",
+      "longDesc": "You've built mead halls more impressive than actual historical structures. The sound of a troll approaching gives you more anxiety than real-life responsibilities.",
+      "thresholds": {
+        "casual": 50,
+        "obsessed": 600
+      }
+    },
+    "1904540": {
+      "_name": "Age of Empires IV",
+      "shortDesc": "Your historical knowledge is suspiciously focused on siege weapon efficiency.",
+      "longDesc": "You've built more castles than medieval Europe. Your economic strategies in-game would impress actual economists if they weren't primarily focused on producing trebuchets.",
+      "thresholds": {
+        "casual": 40,
+        "obsessed": 800
+      }
+    },
+    "1426210": {
+      "_name": "It Takes Two",
+      "shortDesc": "The only successful relationship you've maintained is with your co-op partner.",
+      "longDesc": "Your communication skills in-game are inversely proportional to your real-life conversation abilities. You've sworn at your partner more creatively than most people can imagine.",
+      "thresholds": {
+        "casual": 12,
+        "obsessed": 100
+      }
+    },
+    "1293830": {
+      "_name": "Forza Horizon 5",
+      "shortDesc": "Your virtual driving skills are better than your actual road awareness.",
+      "longDesc": "You've collected more cars virtually than Jay Leno has in real life. Your knowledge of Mexico's geography is entirely based on race tracks and jump locations.",
+      "thresholds": {
+        "casual": 50,
+        "obsessed": 600
+      }
+    },
+    "359320": {
+      "_name": "Elite Dangerous",
+      "shortDesc": "Your space travel experience exceeds NASA astronauts'... virtually.",
+      "longDesc": "You've explored more star systems than there are cities on Earth. Your spacecraft docking skills are more precise than your parallel parking abilities.",
+      "thresholds": {
+        "casual": 80,
+        "obsessed": 1500
+      }
+    },
+    "632360": {
+      "_name": "Risk of Rain 2",
+      "shortDesc": "Your god-like powers late-game compensate for your early-game struggles.",
+      "longDesc": "You've collected more items than retail stores carry inventory. Your understanding of proc coefficients would impress mathematicians if they cared about videogame stats.",
+      "thresholds": {
+        "casual": 30,
+        "obsessed": 400
+      }
+    },
+    "304390": {
+      "_name": "Kingdom Come: Deliverance",
+      "shortDesc": "Your medieval combat skills are more polished than your modern manners.",
+      "longDesc": "You've invested more in learning sword techniques than useful life skills. Your knowledge of 15th century Bohemia exceeds that of most history professors.",
+      "thresholds": {
+        "casual": 60,
+        "obsessed": 500
+      }
+    },
+    "1517290": {
+      "_name": "Battlefield 2042",
+      "shortDesc": "Your expectations were higher than the actual game quality.",
+      "longDesc": "You've experienced more bugs than an entomologist. Your patience for game updates exceeds most people's tolerance for daily commutes.",
+      "thresholds": {
+        "casual": 40,
+        "obsessed": 800
+      }
+    },
+    "526870": {
+      "_name": "Satisfactory",
+      "shortDesc": "Your factory efficiency exceeds your life efficiency by orders of magnitude.",
+      "longDesc": "You've calculated belt throughput more precisely than your monthly budget. Your power grid is more stable than your sleep schedule.",
+      "thresholds": {
+        "casual": 70,
+        "obsessed": 1000
+      }
+    },
+    "812140": {
+      "_name": "Assassin's Creed Odyssey",
+      "shortDesc": "Your knowledge of ancient Greece comes exclusively from killing people there.",
+      "longDesc": "You've climbed more historical structures than actual archaeologists have excavated. Your ship has sailed farther than most navy vessels.",
+      "thresholds": {
+        "casual": 80,
+        "obsessed": 600
+      }
+    },
+    "275850": {
+      "_name": "No Man's Sky",
+      "shortDesc": "You've named more planets than astronomers have discovered.",
+      "longDesc": "Your base building skills exceed architectural degrees. You've spent more time scanning rocks than geologists spend in the field.",
+      "thresholds": {
+        "casual": 60,
+        "obsessed": 800
+      }
+    },
+  "620980": {
+    "_name": "Beat Saber",
+    "shortDesc": "Your arm muscles have evolved specifically for slicing virtual blocks.",
+    "longDesc": "You've developed a pavlovian response to any song with a good beat. Your living room furniture has suffered more accidental damage than items in actual sword fighting dojos.",
+    "thresholds": {
+      "casual": 15,
+      "obsessed": 200
+    }
+  },
+  "546560": {
+    "_name": "Half-Life: Alyx",
+    "shortDesc": "You've reloaded weapons more carefully in VR than most people handle delicate glassware.",
+    "longDesc": "Your relationship with Jeff is more traumatic than some actual breakups. You instinctively reach for objects in real life expecting gravity gloves to do the work.",
+    "thresholds": {
+      "casual": 15,
+      "obsessed": 100
+    }
+  },
+  "438100": {
+    "_name": "VRChat",
+    "shortDesc": "Your social life is more vibrant in virtual reality than in actual reality.",
+    "longDesc": "You've had more meaningful conversations with anime characters and furries than with your real friends. Your avatar collection is more extensive than your actual wardrobe.",
+    "thresholds": {
+      "casual": 50,
+      "obsessed": 1000
+    }
+  },
+  "286160": {
+    "_name": "Tabletop Simulator",
+    "shortDesc": "You've flipped more virtual tables than real ones... hopefully.",
+    "longDesc": "Your digital board game collection exceeds what most actual game stores carry. You've spent more time setting up games than actually playing them, just like in real life.",
+    "thresholds": {
+      "casual": 40,
+      "obsessed": 600
+    }
+  },
+  "892970": {
+    "_name": "Valheim",
+    "shortDesc": "Your Viking architectural skills vastly outpace your IKEA furniture assembly abilities.",
+    "longDesc": "You've built mead halls more impressive than actual historical structures. The sound of a troll approaching gives you more anxiety than real-life responsibilities.",
+    "thresholds": {
+      "casual": 50,
+      "obsessed": 600
+    }
+  },
+  "1222670": {
+    "_name": "BONEWORKS",
+    "shortDesc": "Your understanding of virtual physics exceeds your grasp of actual physics.",
+    "longDesc": "You've found more creative ways to use a crowbar than Gordon Freeman himself. Your ability to stack virtual objects is inversely proportional to your real-life organizational skills.",
+    "thresholds": {
+      "casual": 15,
+      "obsessed": 120
+    }
+  },
+  "760540": {
+    "_name": "The Elder Scrolls V: Skyrim VR",
+    "shortDesc": "You've taken an arrow to the knee in virtual reality, which is somehow worse.",
+    "longDesc": "You can actually feel the weight of all the cheese wheels you've collected. Your virtual home decorating skills make interior designers question their career choices.",
+    "thresholds": {
+      "casual": 50,
+      "obsessed": 400
+    }
+  },
+  "719950": {
+    "_name": "Pavlov VR",
+    "shortDesc": "Your virtual gun handling skills concern your real-life friends.",
+    "longDesc": "You've memorized reload patterns better than your own phone number. Your ability to communicate through hand gestures has reached mime artist levels of proficiency.",
+    "thresholds": {
+      "casual": 30,
+      "obsessed": 400
+    }
+  },
+  "1121800": {
+    "_name": "No Man's Sky VR",
+    "shortDesc": "Space exploration from the comfort of your living room, motion sickness included.",
+    "longDesc": "You've planted more flags on virtual planets than all of NASA combined. Your sense of wonder at alien landscapes is matched only by your annoyance at inventory management.",
+    "thresholds": {
+      "casual": 50,
+      "obsessed": 600
+    }
+  },
+  "1536370": {
+    "_name": "Among Us VR",
+    "shortDesc": "Being sus is somehow more personal when you can physically point fingers.",
+    "longDesc": "Your emergency meeting hand-raising speed is Olympic-worthy. Your ability to lie with full body language has friends questioning your honesty in real life.",
+    "thresholds": {
+      "casual": 10,
+      "obsessed": 100
+    }
+  },
+  "1523720": {
+    "_name": "Wanderer",
+    "shortDesc": "Time travel is more disorienting when you can actually reach out and touch history.",
+    "longDesc": "You've solved puzzles across time periods with more dexterity than actual historians could manage. Your room-scale movement has resulted in more household accidents than regular gaming.",
+    "thresholds": {
+      "casual": 8,
+      "obsessed": 80
+    }
+  },
+  "251570": {
+    "_name": "7 Days to Die",
+    "shortDesc": "Your zombie apocalypse preparation has evolved beyond mere hoarding.",
+    "longDesc": "You've built more fortresses against the undead than actual architects have designed real buildings. Your anxiety peaks every 7 days in real life now.",
+    "thresholds": {
+      "casual": 50,
+      "obsessed": 800
+    }
+  },
+  "225540": {
+    "_name": "Just Cause 3",
+    "shortDesc": "Physics are more of a suggestion than a rule in your world.",
+    "longDesc": "You've used the grappling hook in more creative ways than Spider-Man. Your explosive tendencies would concern actual demolition experts.",
+    "thresholds": {
+      "casual": 30,
+      "obsessed": 300
+    }
+  },
+  "244850": {
+    "_name": "Space Engineers",
+    "shortDesc": "NASA could learn a thing or two from your spacecraft designs.",
+    "longDesc": "You've crashed more ships than the entire history of space exploration. Your understanding of zero-gravity physics is both impressive and completely impractical.",
+    "thresholds": {
+      "casual": 60,
+      "obsessed": 1000
+    }
+  },
+  "1158310": {
+    "_name": "Crusader Kings III",
+    "shortDesc": "Your family tree is more of a family circle at this point.",
+    "longDesc": "You've committed more medieval atrocities than actual historical figures. Your understanding of feudal politics would make Machiavelli proud and concerned.",
+    "thresholds": {
+      "casual": 60,
+      "obsessed": 1000
+    }
+  },
+  "17080": {
+    "_name": "Amnesia: The Dark Descent",
+    "shortDesc": "Your sanity meter is lower in real life than in the game.",
+    "longDesc": "The sound of footsteps behind you triggers fight-or-flight responses even outside the game. You check dark corners more thoroughly than professional security guards.",
+    "thresholds": {
+      "casual": 8,
+      "obsessed": 100
+    }
+  },
+  "232090": {
+    "_name": "Killing Floor 2",
+    "shortDesc": "Your zombie kill count exceeds most horror movie body counts.",
+    "longDesc": "You've perfected headshots to an art form that would concern mental health professionals. The soundtrack has ruined normal music for you forever.",
+    "thresholds": {
+      "casual": 30,
+      "obsessed": 500
+    }
+  },
+  "108600": {
+    "_name": "Project Zomboid",
+    "shortDesc": "You've died of more mundane causes than actual zombie bites.",
+    "longDesc": "Your survival skills in-game far exceed your preparedness for real disasters. The phrase 'This is how you died' triggers more emotional responses than actual sad stories.",
+    "thresholds": {
+      "casual": 50,
+      "obsessed": 700
+    }
+  },
+  "346110": {
+    "_name": "Kenshi",
+    "shortDesc": "Your tolerance for suffering rivals Buddhist monks.",
+    "longDesc": "You've built more failed settlements than actual ghost towns. Your characters have lost more limbs than a medieval battleground, and somehow you enjoy this.",
+    "thresholds": {
+      "casual": 40,
+      "obsessed": 600
+    }
+  },
+  "677120": {
+    "_name": "GTFO",
+    "shortDesc": "Your stealth coordination skills exceed actual special forces teams.",
+    "longDesc": "You've been jumpscared more times than haunted house employees. Your flashlight discipline would impress military operators on covert missions.",
+    "thresholds": {
+      "casual": 30,
+      "obsessed": 400
+    }
+  },
+  "1172380": {
+    "_name": "Blade & Sorcery",
+    "shortDesc": "Your virtual combat creativity would concern law enforcement.",
+    "longDesc": "You've invented more ways to use physics against enemies than actual martial artists. Your living room has suffered more accidental damage than gladiatorial arenas.",
+    "thresholds": {
+      "casual": 20,
+      "obsessed": 300
+    }
+  },
+  "753640": {
+    "_name": "Outer Wilds",
+    "shortDesc": "Your understanding of time loops exceeds most physicists.",
+    "longDesc": "You've died to the sun exploding more times than most people have had hot meals. The game's soundtrack makes you emotional in ways you can't explain to non-players.",
+    "thresholds": {
+      "casual": 20,
+      "obsessed": 150
+    }
+  },
+  "588650": {
+    "_name": "The Long Dark",
+    "shortDesc": "Your virtual survival skills wouldn't translate to actual wilderness situations.",
+    "longDesc": "You've died of exposure more times than polar explorers. Your fear of wolves now extends to perfectly friendly dogs in real life.",
+    "thresholds": {
+      "casual": 30,
+      "obsessed": 400
+    }
+  },
+  "1313140": {
+    "_name": "Cult of the Lamb",
+    "shortDesc": "Your cult leadership skills are suspiciously well-developed.",
+    "longDesc": "You've sacrificed more followers than actual historical cults. Your cute animal aesthetic belies disturbing tendencies toward dictatorship and resource management.",
+    "thresholds": {
+      "casual": 15,
+      "obsessed": 200
+    }
+  },
+  "1049360": {
+    "_name": "Factorio VR",
+    "shortDesc": "The factory must grow, and now it surrounds you completely.",
+    "longDesc": "You've optimized production lines better than industrial engineers with PhDs. Your dream in VR and in life is to create the perfect spaghetti of conveyor belts stretching to infinity.",
+    "thresholds": {
+      "casual": 50,
+      "obsessed": 1000
+    }
+  },
+  "885000": {
+    "_name": "Vampire Survivors",
+    "shortDesc": "Your appreciation for bullet hell minimalism knows no bounds.",
+    "longDesc": "You've killed more monsters with a garlic aura than Van Helsing did with actual weapons. Your ability to dodge tiny pixelated projectiles exceeds your ability to avoid real-life obstacles.",
+    "thresholds": {
+      "casual": 20,
+      "obsessed": 300
+    }
+  },
+  "1248130": {
+    "_name": "PowerWash Simulator",
+    "shortDesc": "You find more satisfaction in virtual cleaning than actual housework.",
+    "longDesc": "You've pressure washed more virtual grime than professional cleaners do in their entire careers. Your real-life home remains dusty while your virtual environments gleam.",
+    "thresholds": {
+      "casual": 20,
+      "obsessed": 300
+    }
+  },
+  "531270": {
+    "_name": "Ravenfield",
+    "shortDesc": "Your one-person army would make action movie heroes jealous.",
+    "longDesc": "You've commanded more virtual troops than actual generals. Your tactical genius in blocky battlefields far exceeds your strategic thinking in real-life situations.",
+    "thresholds": {
+      "casual": 20,
+      "obsessed": 300
+    }
+  },
+  "500": {
+    "_name": "Left 4 Dead",
+    "shortDesc": "Your zombie apocalypse teamwork skills exceed your actual group project contributions.",
+    "longDesc": "You hear the Witch's cry in your nightmares. Your instinct to avoid car alarms extends to being anxious around actual vehicles.",
+    "thresholds": {
+      "casual": 20,
+      "obsessed": 400
+    }
+  },
+  "1986680": {
+    "_name": "Gorilla Tag",
+    "shortDesc": "Your arm muscles have evolved specifically for virtual primate movement.",
+    "longDesc": "You've destroyed more household items while flailing around than actual gorillas in rage. Your ability to climb virtual structures surpasses your capacity to climb a simple flight of stairs without getting winded.",
+    "thresholds": {
+      "casual": 10,
+      "obsessed": 150
+    }
+  }
+}
